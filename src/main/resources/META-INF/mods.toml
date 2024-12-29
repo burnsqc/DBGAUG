@@ -1,0 +1,26 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+logoFile="dbgaug.png"
+license="All Rights Reserved"
+
+[[mods]]
+    displayName="DBGAUG"    
+    version="1.0.0"
+    modId="dbgaug"
+    credits="burnsqc"
+    authors="burnsqc"
+    description='''DBGAUG - Debug Augmented'''
+
+[[dependencies.dbgaug]] 
+    modId="forge" 
+    mandatory=true
+    versionRange="[47,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.dbgaug]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1]"
+    ordering="NONE"
+    side="BOTH"

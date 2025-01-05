@@ -1,0 +1,20 @@
+{
+    "providers": [
+        {
+            "type": "space",
+            "advances": {
+                " ": 6,
+				".": 6,
+                "\u200c": 0
+            }
+        },
+        {
+            "type": "reference",
+            "id": "minecraft:include/default"
+        },
+        {
+            "type": "reference",
+            "id": "minecraft:include/unifont"
+        }
+    ]
+}
